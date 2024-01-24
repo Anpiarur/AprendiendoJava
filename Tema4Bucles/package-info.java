@@ -296,4 +296,116 @@ usuario se le pedirán dos datos, la altura del cartel y el número de espacios
 que habrá entre los números. La altura mínima es 5. La anchura de los números
 siempre es la misma. La parte superior de los cincos también es siempre igual.
 La parte inferior del 5 sí que varía en función de la altura.
+Ejercicio 51
+El gusano numérico se come los dígitos con forma de rosquilla, o sea, el 0 y el 8
+(todos los que encuentre). Realiza un programa que muestre un número antes
+y después de haber sido comido por el gusano. Si el animalito no se ha comido
+ningún dígito, el programa debe indicarlo.
+Ejemplo 1:
+Introduzca un número entero (mayor que cero): 51803458
+Después de haber sido comido por el gusano numérico se queda en 51345
+Ejemplo 2:
+Introduzca un número entero (mayor que cero): 29614
+El gusano numérico no se ha comido ningún dígito.
+Ejercicio 52
+Realiza un programa que sea capaz de desplazar todos los dígitos de un número
+de derecha a izquierda una posición. El dígito de más a la izquierda, pasaría a
+dar la vuelta y se colocaría a la derecha. Si el número tiene un solo dígito, se
+queda igual.
+Ejercicio 53
+Realiza un programa que pinte un triángulo relleno tal como se muestra en los
+ejemplos. El usuario debe introducir la altura de la figura.
+Ejercicio 54
+Realiza un programa que pinte un triángulo hueco tal como se muestra en los
+ejemplos. El usuario debe introducir la altura de la figura.
+Ejercicio 55
+Realiza un programa que sea capaz de desplazar todos los dígitos de un número
+de izquierda a derecha una posición. El dígito de más a la derecha, pasaría a
+dar la vuelta y se colocaría a la izquierda. Si el número tiene un solo dígito, se
+queda igual.
+Ejemplo 1:
+Introduzca un número: 609831
+El número resultado es 160983
+Ejemplo 2:
+Introduzca un número: 78201345
+El número resultado es 57820134
+Ejercicio 56
+Realiza un programa que pinte un triángulo relleno tal como se muestra en los
+ejemplos. El usuario debe introducir la altura de la figura.
+Ejercicio 57
+Realiza un programa que pinte un triángulo hueco tal como se muestra en los
+ejemplos. El usuario debe introducir la altura de la figura.
+Ejercicio 58
+Realiza un programa que calcule la media de los dígitos que contiene un número
+entero introducido por teclado.
+Ejemplo 1:
+Introduzca un número: 609831
+La media de sus dígitos es 4.5
+Ejemplo 2:
+Introduzca un número: 78201345
+La media de sus dígitos es 3.75
+Ejercicio 59
+Escribe un programa que pinte por pantalla un árbol de navidad. El usuario debe
+introducir la altura. En esa altura va incluida la estrella y el tronco. Suponemos
+que el usuario introduce una altura mayor o igual a 4.
+Ejercicio 60
+Escribe un programa que pinte por pantalla un par de calcetines, de los que
+se ponen al lado del árbol de Navidad para que Papá Noel deje sus regalos.
+El usuario debe introducir la altura. Suponemos que el usuario introduce una
+altura mayor o igual a 4. Observa que la talla de los calcetines y la distancia
+que hay entre ellos (dos espacios) no cambia, lo único que varía es la altura.
+Ejercicio 61
+Escribe un programa que pinte por pantalla la letra V. El ancho del palo de
+la V es siempre de 3 asteriscos. El usuario debe introducir la altura. La altura
+mínima es de 3 pisos. Si el usuario introduce una altura menor, el programa
+debe mostrar un mensaje de error.
+Ejercicio 62
+Según cierta cultura oriental, los números de la suerte son el 3, el 7, el 8 y el 9.
+Los números de la mala suerte son el resto: el 0, el 1, el 2, el 4, el 5 y el 6. Un
+número es afortunado si contiene más números de la suerte que de la mala
+suerte. Realiza un programa que diga si un número introducido por el usuario
+es afortunado o no.
+Ejercicio 63
+Realiza un programa que pinte dos pirámides rellenas hechas con asteriscos,
+una al lado de la otra y separadas por un espacio en su base.
+ *Ejercicio 64
+Escribe un programa que pinte por pantalla un rectángulo hueco de 6 caracte-
+res de ancho por 3 de alto y, a continuación, un menú que permita agrandarlo,
+achicarlo o cambiar su orientación. Cada vez que el rectángulo se agranda,
+se incrementa en 1 tanto su anchura como su altura. Cuando se achica,
+se decrementa en 1 su anchura y altura. Por último, cuando se cambia la
+orientación, los valores de anchura y altura se intercambian. El valor mínimo
+de la altura o la anchura es 2.
+Ejercicio 65
+Escribe un programa que pinte por pantalla la letra A. El usuario debe introducir
+la altura total y la fila en la que debe aparecer el palito horizontal (contando
+desde el vértice). La altura mínima es de 3 pisos. La fila donde va el palito
+horizontal debe ser mayor que 1 y menor que la altura total. Si el usuario
+introduce algún dato incorrecto, el programa debe mostrar un mensaje de error.
+Ejercicio 66
+La Guardia Civil de Tráfico nos ha encargado un programa que pinte una señal
+para desviar el tráfico hacia la derecha. La señal es una doble flecha con el
+vértice apuntando a la derecha. Se pide al usuario la altura de la figura, que
+debe ser un número impar mayor o igual que 3. La distancia entre cada flecha
+de asteriscos es siempre de 4 espacios. Si la altura introducida por el usuario
+no es un número impar mayor o igual que 3, el programa debe mostrar un
+mensaje de error.
+Ejercicio 67
+Realiza un programa que pinte una escalera que va descendiendo de izquierda
+a derecha. El programa pedirá el número de escalones y la altura de cada
+escalón. La anchura de los escalones siempre es la misma: 4 asteriscos.
+Ejercicio 68
+Escribe un programa que pida un número por teclado y que luego lo “dislo-
+que” de tal forma que a cada dígito se le suma 1 si es par y se le resta 1 si
+es impar. Usa long en lugar de int donde sea necesario para admitir números
+largos.
+Ejercicio 69
+Realiza un programa que pinte una pirámide maya. Por los lados, se trata
+de una pirámide normal y corriente. Por el centro se van pintando líneas de
+asteriscos de forma alterna (empezando por la superior): la primera se pinta,
+la segunda no, la tercera sí, la cuarta no, etc. La terraza de la pirámide siempre
+tiene 6 asteriscos, por tanto, las líneas centrales que se añaden a la pirámide
+normal tienen 4 asteriscos. El programa pedirá la altura. Se supone que el
+usuario introducirá un número entero mayor o igual a 3; no es necesario
+comprobar los datos de entrada.
  */
