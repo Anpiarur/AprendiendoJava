@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package AprendeConJava.Tema5NumerosAleatorios;
+
 
 /**
  * Ejercicio 25 Escribe un programa que muestre por pantalla 100 números enteros

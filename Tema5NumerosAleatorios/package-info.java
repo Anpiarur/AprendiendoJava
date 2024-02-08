@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/package-info.java to edit this template
  */
-package AprendeConJava.Tema5NumerosAleatorios;
+
 /*
  * Ejercicio 1
 Escribe un programa que muestre la tirada de tres dados. Se debe mostrar
@@ -142,5 +142,10 @@ Realiza un programa que pinte una tableta de turrón con un bocado realizado de
 forma aleatoria. El ancho y el alto de la tableta se pide por teclado. El bocado se
 da alrededor del turrón, obviamente no se puede dar un bocado por en medio
 de la tableta.
+ * Ejercicio 27
+Implementa el juego piedra, papel y tijera. Primero, el usuario introduce su
+jugada y luego el ordenador genera al azar una de las opciones. Si el usuario
+introduce una opción incorrecta, el programa deberá mostrar un mensaje de
+error.
 * 
 */
