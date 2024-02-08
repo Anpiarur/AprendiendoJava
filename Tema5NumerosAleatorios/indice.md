@@ -152,3 +152,18 @@ primero se coloca en la primera posición, el segundo en la última, el tercero
 en la segunda, el cuarto en la penúltima, el quinto en la tercera, en sexto en la
 antepenúltima, etc. Se debe mostrar por pantalla tanto el array original como
 el array resultado.
+*Ejercicio 29*
+Realiza un programa que muestre la previsión del tiempo para mañana en
+Málaga. Las temperaturas máxima y mínima se deben generar de forma
+aleatoria entre los intervalos máximos y mínimos absolutos medidos en las
+últimas décadas para cada estación. La probabilidad de que esté soleado
+o nublado en cada estación se proporciona a continuación. Obviamente, la
+temperatura mínima deberá ser menor o igual que la temperatura máxima.
+*Ejercicio 30*
+El pequeño Roberto tenía como mascota un pececillo dentro de una pecera. Los
+Reyes Magos le han traído un caballito de mar ($) y una caracola (@) para que
+le hagan compañía al pez. Realiza un programa que pinte por pantalla la pecera
+con los tres animalitos acuáticos colocados dentro en posiciones aleatorias. Por
+una cuestión de física elemental, ninguno de los animales puede coincidir
+en la misma posición. Se debe pedir al usuario el ancho y el alto de la pecera,
+que como mínimo serán de 4 unidades.
