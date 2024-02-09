@@ -1,10 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/package-info.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
 
-/*
+# Indice
+
 Ejercicio 1
 Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle for.
 Ejercicio 2
@@ -408,4 +404,3 @@ tiene 6 asteriscos, por tanto, las líneas centrales que se añaden a la pirámi
 normal tienen 4 asteriscos. El programa pedirá la altura. Se supone que el
 usuario introducirá un número entero mayor o igual a 3; no es necesario
 comprobar los datos de entrada.
- */
