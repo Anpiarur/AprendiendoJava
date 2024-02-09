@@ -26,7 +26,6 @@ public class Num31 {
         System.out.println("Dinero que desea apostar: ");
         double dinero = sc.nextDouble();
 
-        boolean juegoTerminado = false;
 
         int dado1 = (int) (Math.random() * 6 + 1);
         int dado2 = (int) (Math.random() * 6 + 1);
