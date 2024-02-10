@@ -4,7 +4,6 @@ Escribe un programa que declare variables de tipo char y de tipo String.
 Intentamostrarlas por pantalla todas juntas en la misma línea y con una sola sentenciade Java (con un solo println) 
 ¿es posible?
  */
-package AprendeConJava;
 
 /**
  *

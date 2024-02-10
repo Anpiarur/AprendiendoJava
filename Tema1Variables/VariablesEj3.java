@@ -4,7 +4,7 @@ Crea las variables nombre, direccion y telefono y asígnales los valores corresp
 Muestra los valores de esas variables por pantalla de tal forma que elresultado del programa
 sea el mismo que en el ejercicio 2
  */
-package AprendeConJava;
+
 
 /**
  *

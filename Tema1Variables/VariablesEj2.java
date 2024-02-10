@@ -4,7 +4,6 @@ Crea la variable nombre y asígnale tu nombre completo.
 Muestra su valor por pantalla de tal forma que el resultado 
 del programa sea el mismo que en elejercicio 1 del capítulo 1
  */
-package AprendeConJava;
 
 /**
  *

@@ -1,4 +1,4 @@
-package AprendeConJava;
+
 import java.util.Scanner;
 
 /**

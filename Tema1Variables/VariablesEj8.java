@@ -6,7 +6,6 @@ y asígnale como valor la concatenación de las anteriores 5 variables.
 Por último, muestra la cadena de caracteres por pantalla 
 ¿Qué problemas te encuentras? ¿cómo lo has solucionado?
  */
-package AprendeConJava;
 
 /**
  *
