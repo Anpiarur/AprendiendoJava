@@ -18,6 +18,7 @@ public
             System.out.println("Introduzca un segundo número");
             int num2=s.nextInt();
             int resultado=num1*num2;
+            s.close();
     
     System.out.printf("El resultado del primero numero %d y el segundo numero %d es %d",num1,num2,resultado);
   }

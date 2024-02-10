@@ -1,3 +1,4 @@
+
 /*
 Ejercicio 1
 Escribe un programa en el que se declaren las variables enteras x e y. Asígnales
