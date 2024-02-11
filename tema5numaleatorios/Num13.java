@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+package tema5numaleatorios;
 
 /**
  * Ejercicio 13 Escribe un programa que simule la tirada de dos dados. El
@@ -21,7 +18,7 @@ public class Num13 {
             dado2 = (int) (Math.random() * 6 + 1);
             System.out.println("Tirada primer dado: " + dado1);
             System.out.println("Tirada segundo dado: " + dado2);
-            
+
         } while (dado1 != dado2);
     }
 }

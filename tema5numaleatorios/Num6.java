@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+package tema5numaleatorios;
 
 import java.util.Scanner;
 
@@ -26,9 +23,11 @@ public class Num6 {
             if (numeroIntroducido != numero) {
                 intentos--;
                 if (numeroIntroducido > numero) {
-                    System.out.println("Lo siento, ha introducido un número mayor. Le quedan " + intentos + " intentos");
+                    System.out
+                            .println("Lo siento, ha introducido un número mayor. Le quedan " + intentos + " intentos");
                 } else {
-                    System.out.println("Lo siento, ha introducido un número menor. Le quedan " + intentos + " intentos");
+                    System.out
+                            .println("Lo siento, ha introducido un número menor. Le quedan " + intentos + " intentos");
                 }
 
             } else {

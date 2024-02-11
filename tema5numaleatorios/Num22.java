@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 import java.util.Scanner;
 
@@ -42,7 +38,8 @@ public class Num22 {
                 // Genera un movimiento aleatorio de -1, 0 o 1
                 int movimiento = (int) (Math.random() * 3) - 1;
 
-                // Actualiza la posición x asegurándose de no salir de los límites de la pantalla
+                // Actualiza la posición x asegurándose de no salir de los límites de la
+                // pantalla
                 x = Math.max(1, Math.min(x + movimiento, 25));
 
                 // Pinta espacios hasta llegar a la posición x

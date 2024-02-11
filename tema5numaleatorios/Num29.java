@@ -1,3 +1,5 @@
+package tema5numaleatorios;
+
 import java.util.Scanner;
 
 /**
@@ -56,6 +58,8 @@ public class Num29 {
                case 10:
                   solNube = "nublado";
                   break;
+               default:
+                  break;
             }
             break;
          case 2:
@@ -76,6 +80,9 @@ public class Num29 {
                case 10:
                   solNube = "nublado";
                   break;
+               default:
+                  break;
+
             }
             break;
          case 3:
@@ -96,6 +103,8 @@ public class Num29 {
                case 10:
                   solNube = "nublado";
                   break;
+               default:
+                  break;
             }
             break;
          case 4:
@@ -115,6 +124,8 @@ public class Num29 {
                case 10:
                   solNube = "nublado";
                   break;
+               default:
+                  break;
             }
             break;
 
@@ -125,12 +136,12 @@ public class Num29 {
       // CALCULO DE TEMPERATURAS
       double temperaturaMaxima = Math.random() * (maxima - minima) + minima;
       double temperaturaMinima = Math.random() * (temperaturaMaxima - minima) + minima;
-      
+
       // RESOLUCION
       System.out.println("Previsión del tiempo para mañana");
       System.out.println("-----------------------------------");
-      System.out.printf("Temperatura mínima: %.2f°C\n", temperaturaMinima);
-      System.out.printf("Temperatura máxima: %.2f°C\n", temperaturaMaxima);
+      System.out.printf("Temperatura mínima: %.2f°C%n", temperaturaMinima);
+      System.out.printf("Temperatura máxima: %.2f°C%n", temperaturaMaxima);
       System.out.println(solNube);
    }
 }

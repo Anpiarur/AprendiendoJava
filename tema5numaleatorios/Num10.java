@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
  * Ejercicio 10 Realiza un programa que pinte por pantalla diez líneas formadas
@@ -40,6 +36,8 @@ public class Num10 {
                     break;
                 case 6:
                     relleno = "@";
+                    break;
+                default:
                     break;
             }
             for (int j = 1; j <= longitud; j++) {

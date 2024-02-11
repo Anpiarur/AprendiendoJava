@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
  * Ejercicio 2 Realiza un programa que muestre al azar el nombre de una carta de

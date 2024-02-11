@@ -1,18 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
- *Ejercicio 5
-Muestra 50 números enteros aleatorios entre 100 y 199 (ambos incluidos)
-separados por espacios. Muestra también el máximo, el mínimo y la media
-de esos números.
+ * Ejercicio 5
+ * Muestra 50 números enteros aleatorios entre 100 y 199 (ambos incluidos)
+ * separados por espacios. Muestra también el máximo, el mínimo y la media
+ * de esos números.
+ * 
  * @author angelaruiz
  */
 public class Num5 {
-  
+
     public static void main(String[] args) {
         int suma = 0;
         int maximo = Integer.MIN_VALUE;

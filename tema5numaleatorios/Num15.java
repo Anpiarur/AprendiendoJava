@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
  * Ejercicio 15 Realiza un generador de melodía con las siguientes condiciones:
@@ -22,8 +18,8 @@ public class Num15 {
 
     public static void main(String[] args) {
         int longitudMelodia = (int) (Math.random() * 7 + 1) * 4; // Múltiplo de 4 entre 4 y 28
-        //CON CLASE RANDOM SERIA Random random = new Random();
-        //int longitudMelodia = random.nextInt(25) + 4; (Del 4 al 28)
+        // CON CLASE RANDOM SERIA Random random = new Random();
+        // int longitudMelodia = random.nextInt(25) + 4; (Del 4 al 28)
 
         String melodia = "";
 

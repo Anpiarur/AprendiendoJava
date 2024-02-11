@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
  * Ejercicio 25 Escribe un programa que muestre por pantalla 100 números enteros
@@ -25,8 +21,10 @@ public class Num25 {
                 System.out.print(numero);
                 esPrimo = false;
             } else {
-                for (int j = 2; j <= Math.sqrt(numero); j++) { //Utilizar j <= Math.sqrt(numero) en lugar de j <= numero reduce la cantidad 
-                    //de iteraciones necesarias para verificar si un número es primo, lo que mejora la eficiencia del algoritmo.
+                for (int j = 2; j <= Math.sqrt(numero); j++) { // Utilizar j <= Math.sqrt(numero) en lugar de j <=
+                                                               // numero reduce la cantidad
+                    // de iteraciones necesarias para verificar si un número es primo, lo que mejora
+                    // la eficiencia del algoritmo.
                     if (numero % j == 0) {
                         System.out.print(numero);
                         esPrimo = false;

@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
  * Ejercicio 16 Realiza un simulador de máquina tragaperras simplificada que
@@ -45,6 +41,8 @@ public class Num16 {
                 case 4:
                     System.out.print("limón ");
                     break;
+                default:
+                    break;
 
             }
 
@@ -57,6 +55,8 @@ public class Num16 {
                     break;
                 case 2:
                     figura3 = figura;
+                    break;
+                default:
                     break;
 
             }

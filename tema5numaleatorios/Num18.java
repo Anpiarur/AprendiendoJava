@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
  * Ejercicio 18 Sinestesio y Casilda van a pintar los tres dormitorios de su
@@ -67,6 +63,8 @@ public class Num18 {
                     break;
                 case 5:
                     color = "naranja";
+                    break;
+                default:
                     break;
 
             }

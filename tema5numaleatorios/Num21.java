@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
  * Ejercicio 21 Realiza un programa que genere una secuencia de cinco monedas de
@@ -28,6 +24,8 @@ public class Num21 {
                 case 1:
                     cara = "cruz";
                     break;
+                default:
+                    break;
             }
             switch (i) {
                 case 0:
@@ -47,6 +45,8 @@ public class Num21 {
                     break;
                 case 5:
                     moneda = "2 euros";
+                    break;
+                default:
                     break;
             }
             System.out.println(moneda + "-" + cara);

@@ -1,3 +1,5 @@
+package tema5numaleatorios;
+
 import java.util.Scanner;
 
 /**

@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 import java.util.Scanner;
 
@@ -32,7 +28,8 @@ public class Num14 {
                 System.out.println("He adivinado el número que has pensado y es " + numeroAdivinado);
                 break;
             } else {
-                System.out.println("El número es " + ((numeroPensado > numeroAdivinado) ? "mayor" : "menor") + ". Sigo intentándolo."); //OPERACION TERNARIA
+                System.out.println("El número es " + ((numeroPensado > numeroAdivinado) ? "mayor" : "menor")
+                        + ". Sigo intentándolo."); // OPERACION TERNARIA
                 contador++;
             }
 

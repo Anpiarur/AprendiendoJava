@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+package tema5numaleatorios;
 
 /**
  * Ejercicio 11 Escribe un programa que muestre 20 notas generadas al azar. Las
@@ -15,7 +12,7 @@ public class Num11 {
 
     public static void main(String[] args) {
 
-        //Declaracion de variables
+        // Declaracion de variables
         int suspenso = 0;
         int suficiente = 0;
         int bien = 0;
@@ -23,7 +20,7 @@ public class Num11 {
         int sobresaliente = 0;
         String resultado = "";
 
-        //Generamos el bucle que pida las 20 notas con notas random
+        // Generamos el bucle que pida las 20 notas con notas random
         for (int i = 0; i < 20; i++) {
             double nota = (Math.random() * 10);
             if (nota >= 0 && nota < 5) {
@@ -48,6 +45,7 @@ public class Num11 {
             }
             System.out.println(resultado);
         }
-        System.out.printf("Se han sacado %d insuficientes, %d suficientes, %d bien, %d notables y %d sobresalientes", suspenso, suficiente, bien, notable, sobresaliente);
+        System.out.printf("Se han sacado %d insuficientes, %d suficientes, %d bien, %d notables y %d sobresalientes",
+                suspenso, suficiente, bien, notable, sobresaliente);
     }
 }

@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+package tema5numaleatorios;
 
 /**
  * Ejercicio 7 Escribe un programa que muestre tres apuestas de la quiniela en
@@ -31,6 +27,8 @@ public class Num7 {
                         break;
                     case 3:
                         System.out.print(" X |");
+                        break;
+                    default:
                         break;
 
                 }
