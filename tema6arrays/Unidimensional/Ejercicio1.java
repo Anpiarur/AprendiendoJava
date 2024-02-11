@@ -1,4 +1,5 @@
-package Unidimensional;
+package tema6arrays.Unidimensional;
+
 
 /**
  * Ejercicio 1

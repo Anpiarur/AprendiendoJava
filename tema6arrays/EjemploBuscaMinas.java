@@ -1,3 +1,5 @@
+package tema6arrays;
+
 /**
  * Minijuego "Busca el tesoro"
  *
