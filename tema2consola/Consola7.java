@@ -1,4 +1,4 @@
-
+package tema2consola;
 import java.util.Scanner;
 
 /**
