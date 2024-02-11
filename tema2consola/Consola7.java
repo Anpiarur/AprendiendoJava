@@ -14,7 +14,7 @@ public
             Scanner s= new Scanner(System.in);
             System.out.println("Introduzca la base imponible");
             double base=s.nextDouble();
-          
+          s.close();
             double iva= (base*21)/100;
             double resultado= base+iva;
     

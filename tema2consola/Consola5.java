@@ -13,7 +13,7 @@ public
             double ancho=sc.nextDouble();
             System.out.println("Introduzca el largo del rectángulo");
             double largo= sc.nextDouble();
-            
+            sc.close();
             double resultado = largo*ancho;
             
             System.out.printf("El area del rectángulo es %.2f",resultado);

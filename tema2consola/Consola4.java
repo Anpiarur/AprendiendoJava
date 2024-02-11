@@ -15,11 +15,11 @@ public
             int num1= sc.nextInt();
             System.out.println("Introduzca un segundo número");
             int num2=sc.nextInt();
-            
+            sc.close();
             int suma= num1+num2;
             int resta= num1-num2;
             int multi= num1*num2;
-            double division= num1/num2;
+            double division= (double)num1/num2;
             
             System.out.printf("El primer numero es %d y el segundo numero es %d. "
                     + "La suma de los numeros es %d, su resta es %d, su multiplicación es %d y"

@@ -15,7 +15,7 @@ public
             double base = sc.nextDouble();
             System.out.println("Introduzca la altura del triangulo");
             double altura=sc.nextDouble();
-            
+            sc.close();
             double resultado=(base*altura)/2;
             
             System.out.println("El area del triangulo es: "+resultado);

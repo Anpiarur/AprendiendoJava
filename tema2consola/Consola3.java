@@ -13,7 +13,7 @@ public
     Scanner s = new Scanner (System.in);
     System.out.println("Introduce la cantidad de pesetas a convertir");
     double pesetas= s.nextDouble();
-    
+    s.close();
     double resultado= pesetas*euros;
     
     System.out.printf("Las pesetas introducidas %.2f son %.2f euros",pesetas, resultado);
