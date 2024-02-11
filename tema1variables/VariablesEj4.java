@@ -1,3 +1,4 @@
+package tema1variables;
 /*
 Ejercicio 4
 Realiza un conversor de euros a pesetas. 

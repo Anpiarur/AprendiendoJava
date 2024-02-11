@@ -1,3 +1,4 @@
+package tema1variables;
 /*
 Ejercicio 7
 Escribe un programa que declare variables de tipo char y de tipo String. 

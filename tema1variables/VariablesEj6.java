@@ -1,3 +1,4 @@
+package tema1variables;
 /*
 Ejercicio 6
 Escribe un programa que calcule el total de una factura a partir de la base imponible (precio sin IVA). 

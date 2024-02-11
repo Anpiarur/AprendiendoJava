@@ -1,3 +1,5 @@
+package tema1variables;
+
 
 /*
 Ejercicio 1
