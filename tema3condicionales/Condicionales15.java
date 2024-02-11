@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -15,25 +11,24 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales15 {
+public class Condicionales15 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     System.out.println("Vamos a crear una pirámide");
     Scanner sc = new Scanner(System.in);
     System.out.println("Introduzca el carácter con el que rellenar la pirámide \n"
-            + "Puede usar una letra \n"
-            + "Puede usar un número \n"
-            + "O puede usar símbolos como:  *, +, -, $, &,");
+        + "Puede usar una letra \n"
+        + "Puede usar un número \n"
+        + "O puede usar símbolos como:  *, +, -, $, &,");
     String relleno = sc.nextLine();
 
     System.out.println("Ahora elija la dirección donde apuntará el vortice \n"
-            + "Marque 1 para apuntar hacia arriba \n"
-            + "Marque 2 para apuntar hacia abajo \n"
-            + "Marque 3 para apuntar hacia la izquierda \n"
-            + "Marque 4 para apuntar hacia la derecha");
+        + "Marque 1 para apuntar hacia arriba \n"
+        + "Marque 2 para apuntar hacia abajo \n"
+        + "Marque 3 para apuntar hacia la izquierda \n"
+        + "Marque 4 para apuntar hacia la derecha");
     int punta = sc.nextInt();
+    sc.close();
 
     switch (punta) {
       case 1:
@@ -67,5 +62,6 @@ public
       default:
         throw new AssertionError();
     }
+
   }
 }

@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -20,25 +16,24 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales24 {
+public class Condicionales24 {
 
-  public static
-          void main(String[] args) throws Exception {
+  public static void main(String[] args) throws Exception {
 
-    //Inicializacion de datos pedidos por pantalla y declaración 
+    // Inicializacion de datos pedidos por pantalla y declaración
     Scanner sc = new Scanner(System.in);
     System.out.println("Programa de nóminas");
-    System.out.println("Marque el número según el cargo del empleado\n 1-Programador junior\n 2-Programador senior\n 3-Jefe");
+    System.out
+        .println("Marque el número según el cargo del empleado%n 1-Programador junior%n 2-Programador senior%n 3-Jefe");
     int cargo = sc.nextInt();
     System.out.println("¿Cuántos días ha estado de viaje visitando clientes?");
     int dias = sc.nextInt();
-    sc.nextLine();//VACIAR BUFFER
+    sc.nextLine();// VACIAR BUFFER
     System.out.println("¿Está soltero o casado?");
     String estadoCivil = sc.nextLine();
     sc.close();
 
-    //Inicialización de datos 
+    // Inicialización de datos
     int base;
     int viajes;
     int brutos;
@@ -46,7 +41,7 @@ public
     double retencion;
     double neto;
 
-    //Ejecución 
+    // Ejecución
     switch (cargo) {
       case 1:
         base = 950;
@@ -66,27 +61,27 @@ public
     switch (estadoCivil) {
       case "soltero":
         irpf = "25%";
-        retencion = (brutos * 25) / 100;
+        retencion = (double) (brutos * 25) / 100;
         neto = brutos - retencion;
         break;
       case "casado":
         irpf = "20%";
-        retencion = (brutos * 20) / 100;
+        retencion = (double) (brutos * 20) / 100;
         neto = brutos - retencion;
         break;
       default:
         throw new Exception("Estado civil mal introducido");
     }
 
-    //Resultados
+    // Resultados
     System.out.println("---------------------------------------");
-    System.out.printf("||Sueldo base             %7d   ||\n", base);
-    System.out.printf("||Dietas (%2d viajes)     %7d    ||\n", dias, viajes);
+    System.out.printf("||Sueldo base             %7d   ||%n", base);
+    System.out.printf("||Dietas (%2d viajes)     %7d    ||%n", dias, viajes);
     System.out.println("||----------------------------------||");
-    System.out.printf("||Sueldo bruto            %7d   ||\n", brutos);
-    System.out.printf("||Retencion IRPF (%s)      %7.2f ||\n", irpf, retencion);
+    System.out.printf("||Sueldo bruto            %7d   ||%n", brutos);
+    System.out.printf("||Retencion IRPF (%s)      %7.2f ||%n", irpf, retencion);
     System.out.println("||----------------------------------||");
-    System.out.printf("||Sueldo neto                %7.2f||\n", neto);
+    System.out.printf("||Sueldo neto                %7.2f||%n", neto);
     System.out.println("----------------------------------------");
   }
 }

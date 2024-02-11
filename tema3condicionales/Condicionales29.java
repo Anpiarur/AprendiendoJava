@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -16,11 +12,10 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales29 {
+public class Condicionales29 {
 
-  public static
-          void main(String[] args) {
+  @SuppressWarnings("resource")
+  public static void main(String[] args) {
     System.out.println("PRECIO DE SU DESAYUNO");
     Scanner sc = new Scanner(System.in);
     System.out.println("¿Qué ha tomado de comer: palmera, donut o pitufo?");
@@ -42,14 +37,12 @@ public
       case "pitufo":
         System.out.println("¿Pitufo : aceite/tortilla?");
         String pitufo = sc.nextLine().toLowerCase();
-        sc.close();
+
         if (pitufo.equals("aceite")) {
           precioComida = 1.20;
-        }
-        else if (pitufo.equals("tortilla")) {
+        } else if (pitufo.equals("tortilla")) {
           precioComida = 1.60;
-        }
-        else {
+        } else {
           System.out.println("Error en selección de pitufo");
         }
         break;
@@ -59,17 +52,17 @@ public
     }
     if (bebida.equals("zumo")) {
       precioBebida = 1.50;
-    }
-    else if ((bebida.equals("café")) || (bebida.equals("cafe"))) {
+    } else if ((bebida.equals("café")) || (bebida.equals("cafe"))) {
       precioBebida = 1.20;
-    }
-    else {
+    } else {
       System.out.println("Error en selección de bebida");
     }
     total = precioComida + precioBebida;
 
-    System.out.printf("Su comida elegida es %s y el precio de la comida es %.2f\n"
-            + "Su bebida elegida es %s y el precio de la bebida es %.2f\n"
-            + "El total es %.2f", comida, precioComida, bebida, precioBebida, total);
+    System.out.printf("Su comida elegida es %s y el precio de la comida es %.2f%n"
+        + "Su bebida elegida es %s y el precio de la bebida es %.2f%n"
+        + "El total es %.2f", comida, precioComida, bebida, precioBebida, total);
+
+    sc.close();
   }
 }

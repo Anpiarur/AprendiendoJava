@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -12,13 +8,12 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales9 {
+public class Condicionales9 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     double x1, x2;
-//La solución de una ecuacion de segundo grado es x= (-b  + o - raiz cuadrada de (b al cuadrado + 4ac))/2a
+    // La solución de una ecuacion de segundo grado es x= (-b + o - raiz cuadrada de
+    // (b al cuadrado + 4ac))/2a
 
     System.out.println("Este programa resuelve ecuaciones de segundo grado.");
     System.out.println("ax^2 + bx + c = 0");
@@ -35,7 +30,7 @@ public
     System.out.print("c = ");
     double c = sc.nextDouble();
 
-    //Math.pow(b,2) es lo mismo que b*b
+    // Math.pow(b,2) es lo mismo que b*b
     double discriminante = Math.pow(b, 2) - (4 * a * c);
 
     if (discriminante < 0) {
@@ -53,6 +48,6 @@ public
       x2 = (-b - Math.sqrt(discriminante)) / (2 * a);
       System.out.println("x2 = " + x2);
     }
-
+    sc.close();
   }
 }

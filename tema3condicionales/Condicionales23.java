@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -18,32 +14,30 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales23 {
+public class Condicionales23 {
 
-  public static
-          void main(String[] args) throws Exception {
+  public static void main(String[] args) throws Exception {
 
-    //Inicializacion de datos pedidos por pantalla y declaración 
+    // Inicializacion de datos pedidos por pantalla y declaración
     Scanner sc = new Scanner(System.in);
     System.out.println("Calculadora de IVA");
     System.out.println("Ingrese la base imponible del producto");
     double base = sc.nextDouble();
-    sc.nextLine(); //VACIAR BUFFER
+    sc.nextLine(); // VACIAR BUFFER
     System.out.println("Tipo de IVA aplicado: general, reducido, superreducido");
     String IvaAplicado = sc.nextLine();
     System.out.println("Código promocional: nopro, mitad, meno5, 5porc");
     String codigo = sc.nextLine();
     sc.close();
 
-    //Inicialización de datos 
+    // Inicialización de datos
     double baseIva;
     double resultado;
     double iva;
     double promo;
     String porcentaje;
 
-    //Ejecución 
+    // Ejecución
     switch (IvaAplicado) {
       case "general":
         porcentaje = "21%";
@@ -84,11 +78,11 @@ public
         throw new Exception("Código mal introducido");
     }
 
-    //Resultados
-    System.out.printf("Base imponible       %6.2f\n", base);
-    System.out.printf("IVA (%2s)            %6.2f\n", porcentaje, iva);
-    System.out.printf("Precio con IVA       %6.2f\n", baseIva);
-    System.out.printf("Cód. promo. (%5s) -%6.2f\n", codigo, promo);
+    // Resultados
+    System.out.printf("Base imponible       %6.2f%n", base);
+    System.out.printf("IVA (%2s)            %6.2f%n", porcentaje, iva);
+    System.out.printf("Precio con IVA       %6.2f%n", baseIva);
+    System.out.printf("Cód. promo. (%5s) -%6.2f%n", codigo, promo);
     System.out.printf("TOTAL                %6.2f", resultado);
 
   }

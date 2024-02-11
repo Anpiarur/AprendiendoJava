@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -19,13 +15,11 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales25 {
+public class Condicionales25 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
 
-    //Declaracion de variables e inicialización
+    // Declaracion de variables e inicialización
     double centimetro = 0.01;
     double bordado = 2.50;
     double envio = 3.25;
@@ -40,11 +34,12 @@ public
     double altura = sc.nextDouble();
     System.out.println("Ahora introduzca la anchura en cm");
     double anchura = sc.nextDouble();
-    sc.nextLine(); //LIMPIEZA DE BUFFER
+    sc.nextLine(); // LIMPIEZA DE BUFFER
     System.out.println("¿Quiere escudo bordado? (s/n)");
     String escudo = sc.nextLine();
+    sc.close();
 
-    //Ejecución
+    // Ejecución
     bandera = altura * anchura;
     precio = bandera * centimetro;
 
@@ -62,10 +57,10 @@ public
 
     total = precioBandera + envio;
 
-    //Resultado
+    // Resultado
     System.out.println("Gracias. Aquí tiene el desglose de su compra.");
-    System.out.printf("Bandera de %.1f cm2: %.1f euros\n", bandera, precio);
-    System.out.printf("%s:    %.1f euros\n", banderaEscudo, bordado);
+    System.out.printf("Bandera de %.1f cm2: %.1f euros%n", bandera, precio);
+    System.out.printf("%s:    %.1f euros%n", banderaEscudo, bordado);
     System.out.println("Gastos de envío:" + envio + " euros");
     System.out.println("Total: " + total + " euros");
 

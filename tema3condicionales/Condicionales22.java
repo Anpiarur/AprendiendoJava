@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -15,11 +11,9 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales22 {
+public class Condicionales22 {
 
-  public static
-          void main(String[] args) throws Exception {
+  public static void main(String[] args) throws Exception {
     Scanner sc = new Scanner(System.in);
     System.out.println("Ingrese un dia de la semana de lunes a viernes");
     String dia = sc.nextLine();
@@ -27,8 +21,9 @@ public
     int hora = sc.nextInt();
     System.out.println("Ingrese los minutos");
     int minutos = sc.nextInt();
+    sc.close();
 
-    //Seleccionador de dia
+    // Seleccionador de dia
     int diaElegido = 0;
 
     switch (dia) {
@@ -55,13 +50,13 @@ public
         throw new Exception("Dia mal introducido");
     }
 
-    //Fin de semana igual a viernes a las 15:00
+    // Fin de semana igual a viernes a las 15:00
     int finSemana = (4 * 24 * 60) + (15 * 60);
 
-    //Dia , hora y minutos introducidos pasados a minutos totalas
+    // Dia , hora y minutos introducidos pasados a minutos totalas
     int minActual = (diaElegido * 24 * 60) + (hora * 60) + (minutos);
 
-    //Calculo final de minutos restantes y solución
+    // Calculo final de minutos restantes y solución
     int minRestantes = finSemana - minActual;
     if (minRestantes > 0) {
       System.out.printf("Faltan %d minutos para el fin de semana", minRestantes);

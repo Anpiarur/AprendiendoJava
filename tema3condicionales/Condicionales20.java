@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -12,17 +8,15 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales20 {
+public class Condicionales20 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
 
-    boolean capicua=false;
+    boolean capicua = false;
     System.out.println("Ingrese un numero entero positivo de hasta cinco cifras");
     Scanner sc = new Scanner(System.in);
     int numero = sc.nextInt();
-   
+    sc.close();
 
     // número de una cifra
     if (numero < 10) {
@@ -59,8 +53,7 @@ public
 
     if (capicua) {
       System.out.println("El número introducido es capicúa.");
-    }
-    else {
+    } else {
       System.out.println("El número introducido no es capicúa.");
     }
 

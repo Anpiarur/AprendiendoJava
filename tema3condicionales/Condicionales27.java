@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -17,14 +13,12 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales27 {
+public class Condicionales27 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     System.out.println("Pasteleria: SUS PASTELES.\n Haga su pedido\n");
 
-    //DECLARACION VARIABLES E INICIALIZACION
+    // DECLARACION VARIABLES E INICIALIZACION
     double precioSabor = 0;
     double precioNata = 0;
     double precioNombre = 0;
@@ -38,7 +32,7 @@ public
     System.out.println("¿Quiere personalizarla con un nombre?(si o no)");
     String nombre = sc.nextLine();
 
-    //EJECUCION
+    // EJECUCION
     switch (sabor) {
       case "manzana":
         precioSabor = 18;
@@ -62,7 +56,8 @@ public
         }
 
         break;
-
+      default:
+        break;
     }
 
     if (nata.equalsIgnoreCase("si")) {
@@ -76,7 +71,7 @@ public
     }
     total = precioSabor + precioNata + precioNombre;
 
-    //RESULTADO
+    // RESULTADO
     System.out.println("El total es: " + total);
 
   }

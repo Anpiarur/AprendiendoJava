@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -19,11 +15,9 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales21 {
+public class Condicionales21 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     System.out.println("Nota de programación de este trimestre");
     Scanner sc = new Scanner(System.in);
 
@@ -31,7 +25,8 @@ public
     double control1 = sc.nextDouble();
     System.out.println("Ingrese la nota del segundo control");
     double control2 = sc.nextDouble();
-    sc.nextLine();//MUY IMPORTANTE VACIAR EL BUFFER DE SCANNER DESPUES DE DOUBLE O INT Y ANTES DE STRING
+    sc.nextLine();// MUY IMPORTANTE VACIAR EL BUFFER DE SCANNER DESPUES DE DOUBLE O INT Y ANTES DE
+                  // STRING
     double media = (control1 + control2) / 2;
 
     if (media < 5) {

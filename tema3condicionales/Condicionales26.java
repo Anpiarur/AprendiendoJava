@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema3Condicionales;
+package tema3condicionales;
 
 import java.util.Scanner;
 
@@ -18,13 +14,11 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Condicionales26 {
+public class Condicionales26 {
 
-  public static
-          void main(String[] args) throws Exception {
+  public static void main(String[] args) throws Exception {
 
-    //DECLARACION E INICIALIZACION DE VARIABLES
+    // DECLARACION E INICIALIZACION DE VARIABLES
     System.out.println("Venta de entradas CineCampa");
     Scanner sc = new Scanner(System.in);
     System.out.println("Ingrese el número de entradas");
@@ -43,7 +37,7 @@ public
     double total;
     int entrada;
 
-    //EJECUCION
+    // EJECUCION
     switch (dia) {
       case "lunes":
         break;
@@ -57,6 +51,8 @@ public
         pareja = numero / 2;
         individual = numero % 2;
         break;
+      default:
+        break;
     }
     entrada = (base * individual) + (11 * pareja);
 
@@ -66,22 +62,22 @@ public
 
     total = entrada - descuento;
 
-    //RESULTADOS
-    System.out.println("\nAquí tiene sus entradas. Gracias por su compra.");
+    // RESULTADOS
+    System.out.println("%nAquí tiene sus entradas. Gracias por su compra.");
 
     if (pareja > 0) {
-      System.out.printf("Entradas de pareja %2d\n", pareja);
-      System.out.printf("Precio por entrada de pareja  %5.2f €\n", 11.0);
+      System.out.printf("Entradas de pareja %2d%n", pareja);
+      System.out.printf("Precio por entrada de pareja  %5.2f €%n", 11.0);
     }
 
     if (individual > 0) {
-      System.out.printf("Entradas individuales  %2d\n", individual);
-      System.out.printf("Precio por entrada individual %5d €\n", base);
+      System.out.printf("Entradas individuales  %2d%n", individual);
+      System.out.printf("Precio por entrada individual %5d €%n", base);
     }
 
-    System.out.printf("Total  %5d €\n", entrada);
-    System.out.printf("Descuento %5.2f €\n", descuento);
-    System.out.printf("A pagar %5.2f €\n", total);
+    System.out.printf("Total  %5d €%n", entrada);
+    System.out.printf("Descuento %5.2f €%n", descuento);
+    System.out.printf("A pagar %5.2f €%n", total);
 
   }
 
