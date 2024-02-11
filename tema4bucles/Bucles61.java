@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -30,7 +26,8 @@ public class Bucles61 {
             // Pinta la letra V
             for (int i = 0; i < altura - 1; i++) {
                 for (int j = 0; j < altura * 2 - 1; j++) {
-                    // Condición para determinar dónde imprimir los asteriscos para formar la letra V
+                    // Condición para determinar dónde imprimir los asteriscos para formar la letra
+                    // V
                     if (j == i || j == altura * 2 - 2 - i) {
                         System.out.print("***");
                     } else {

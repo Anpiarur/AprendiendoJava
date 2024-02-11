@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -28,6 +24,7 @@ public class Bucles43 {
         int numeroIntroducido = sc.nextInt();
         System.out.println("Introduzca la posición por la que partir el número:");
         int posicion = sc.nextInt();
+        sc.close();
 
         int numero = numeroIntroducido;
         // Calcula la longitud del número

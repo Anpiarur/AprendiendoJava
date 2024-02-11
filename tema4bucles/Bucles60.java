@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -23,12 +19,12 @@ public class Bucles60 {
         System.out.print("Introduzca la altura de los calcetines: ");
         int altura = sc.nextInt();
 
-        //PARTE SUPERIOR DE LOS CALCETINES
+        // PARTE SUPERIOR DE LOS CALCETINES
         for (int i = 0; i < altura - 2; i++) {
             System.out.println("***     ***");
         }
 
-        //PARTE INFERIOR DE LOS CALCETINES
+        // PARTE INFERIOR DE LOS CALCETINES
         for (int i = 0; i < 2; i++) {
             System.out.println("******  ******");
         }

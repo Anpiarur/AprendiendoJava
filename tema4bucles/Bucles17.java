@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -13,11 +9,9 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles17 {
+public class Bucles17 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Introduce un número entero y positivo");
     int num = sc.nextInt();
@@ -29,8 +23,7 @@ public
         suma += i;
       }
 
-    }
-    else {
+    } else {
       System.out.println("Número erróneo");
     }
     System.out.printf("La suma de los cien siguientes números tras %d es: %d", num, suma);

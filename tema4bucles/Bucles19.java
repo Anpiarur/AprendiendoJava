@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -13,17 +9,16 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles19 {
+public class Bucles19 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("PINTEMOS UNA PIRÄMIDE");
     System.out.println("Introduzca un carácter para pintar la pirámide");
     String pintar = sc.nextLine();
     System.out.println("Introduzca la altura de la pirámide");
     int altura = sc.nextInt();
+    sc.close();
 
     int planta = 1;
     int linea = 1;

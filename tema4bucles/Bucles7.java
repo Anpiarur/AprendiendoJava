@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -15,11 +11,9 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles7 {
+public class Bucles7 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
 
     int correcta = 1234;
     int contador = 0;
@@ -36,9 +30,8 @@ public
         System.out.println("Lo siento, esa no es la combinación");
         contador++;
       }
-    }
-    while ((password != correcta) && contador < 4);
-
+    } while ((password != correcta) && contador < 4);
+    sc.close();
   }
 
 }

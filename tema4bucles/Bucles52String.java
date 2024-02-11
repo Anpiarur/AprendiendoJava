@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -39,5 +35,6 @@ public class Bucles52String {
             // Si el número tiene un solo dígito, mostrar el mismo número
             System.out.println("El número resultado es " + numero);
         }
+        scanner.close();
     }
 }

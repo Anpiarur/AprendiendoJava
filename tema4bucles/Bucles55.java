@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -22,6 +18,7 @@ public class Bucles55 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca un número:");
         int numeroIntroducido = sc.nextInt();
+        sc.close();
 
         int numero = numeroIntroducido;
 

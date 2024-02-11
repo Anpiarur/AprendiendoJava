@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -52,28 +48,38 @@ public class Bucles62 {
     }
 }
 /**
- * El operador ternario es una forma concisa de expresar una estructura condicional en una sola línea. Su forma general es:
-
-
-condicion ? valor_si_cierto : valor_si_falso;
-Donde:
-
-condicion es la expresión que se evalúa.
-valor_si_cierto es el valor que se devuelve si la condición es verdadera.
-valor_si_falso es el valor que se devuelve si la condición es falsa.
-
-System.out.println("El " + numeroIntroducido + (fortuna > noFortuna ? " es un número afortunado" : " no es un número afortunado"));
-Esta línea se puede entender así:
-
-"El " + numeroIntroducido concatena la parte del mensaje que indica el número introducido.
-
-(fortuna > noFortuna ? " es un número afortunado" : " no es un número afortunado") es la parte del mensaje que se elige de manera condicional. 
-
-fortuna > noFortuna: Si la cantidad de números de la suerte (fortuna) es mayor que la cantidad de números de mala suerte (noFortuna), entonces la condición es verdadera.
-
-" es un número afortunado": Si la condición es verdadera, esta parte del mensaje se elige.
-
-: " no es un número afortunado": Si la condición es falsa, esta parte del mensaje se elige.
-
-En resumen, el operador ternario es simplemente una forma abreviada de expresar una estructura if-else en una sola línea. Se puede usar cuando se desea realizar una operación condicional simple de manera más concisa.
+ * El operador ternario es una forma concisa de expresar una estructura
+ * condicional en una sola línea. Su forma general es:
+ * 
+ * 
+ * condicion ? valor_si_cierto : valor_si_falso;
+ * Donde:
+ * 
+ * condicion es la expresión que se evalúa.
+ * valor_si_cierto es el valor que se devuelve si la condición es verdadera.
+ * valor_si_falso es el valor que se devuelve si la condición es falsa.
+ * 
+ * System.out.println("El " + numeroIntroducido + (fortuna > noFortuna ? " es un
+ * número afortunado" : " no es un número afortunado"));
+ * Esta línea se puede entender así:
+ * 
+ * "El " + numeroIntroducido concatena la parte del mensaje que indica el número
+ * introducido.
+ * 
+ * (fortuna > noFortuna ? " es un número afortunado" : " no es un número
+ * afortunado") es la parte del mensaje que se elige de manera condicional.
+ * 
+ * fortuna > noFortuna: Si la cantidad de números de la suerte (fortuna) es
+ * mayor que la cantidad de números de mala suerte (noFortuna), entonces la
+ * condición es verdadera.
+ * 
+ * " es un número afortunado": Si la condición es verdadera, esta parte del
+ * mensaje se elige.
+ * 
+ * : " no es un número afortunado": Si la condición es falsa, esta parte del
+ * mensaje se elige.
+ * 
+ * En resumen, el operador ternario es simplemente una forma abreviada de
+ * expresar una estructura if-else en una sola línea. Se puede usar cuando se
+ * desea realizar una operación condicional simple de manera más concisa.
  */

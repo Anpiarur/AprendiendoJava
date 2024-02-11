@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -19,6 +15,7 @@ public class Bucles53 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca la altura de la figura");
         int alturaIntroducida = sc.nextInt();
+        sc.close();
 
         for (int i = 0; i < alturaIntroducida; i++) {
 

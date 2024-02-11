@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -18,6 +14,7 @@ public class Bucles54 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca la altura del triángulo:");
         int altura = sc.nextInt();
+        sc.close();
 
         // Primera línea
         for (int i = 0; i < altura; i++) {

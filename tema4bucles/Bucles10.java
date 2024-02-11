@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -14,11 +10,9 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles10 {
+public class Bucles10 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int numero = 0;
     int suma = 0;
@@ -34,7 +28,7 @@ public
     }
     System.out.print("La media de los números positivos introducidos es ");
     System.out.println((suma - numero) / (contador - 1));
-
+    sc.close();
   }
 
 }

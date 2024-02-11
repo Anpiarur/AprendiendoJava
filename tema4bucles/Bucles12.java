@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -15,11 +11,9 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles12 {
+public class Bucles12 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
     System.out.println("Serie de Fibonacci con  n términos .\n Introduzca n:\n");
@@ -27,12 +21,12 @@ public
     sc.close();
     int fibo1 = 0;
     int fibo2 = 1;
-    int fiboAux=0;
+    int fiboAux = 0;
 
     for (int i = 0; i < n; i++) {
-      fibo1=fiboAux;
-      fiboAux=fibo1+fibo2;
-      fibo2=fibo1;
+      fibo1 = fiboAux;
+      fiboAux = fibo1 + fibo2;
+      fibo2 = fibo1;
       System.out.println(fibo2);
 
     }

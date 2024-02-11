@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -51,5 +47,6 @@ public class Bucles44 {
         long resultado = numero / factorDesplazamiento * (factorDesplazamiento * 10) + digito * factorDesplazamiento + numero % factorDesplazamiento;
 
         System.out.println("El número resultante es " + resultado + ".");
+        sc.close();
     }
 }

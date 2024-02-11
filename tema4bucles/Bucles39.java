@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -28,7 +24,7 @@ public class Bucles39 {
                 for (int j = 1; j <= i; j++) {
                     factorial *= j;
                 }
-                System.out.printf("%d! = %d\n", i, factorial);
+                System.out.printf("%d! = %d%n", i, factorial);
             }
         } else {
             System.out.println("Por favor, ingrese un número entero positivo.");

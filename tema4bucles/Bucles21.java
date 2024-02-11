@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -15,17 +11,16 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles21 {
+public class Bucles21 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
     int numero = 0;
     int maxPar = 0;
     int impares = 0;
     int contador = 0;
     int contadorImpares = 0;
+    teclado.close();
 
     do {
       System.out.println("Introduzca un número( un número negativo cerrará el ciclo)");
@@ -34,21 +29,19 @@ public
       if (numero % 2 != 0) {
         impares += numero;
         contadorImpares++;
-      }
-      else {
+      } else {
         if (numero > maxPar) {
           maxPar = numero;
         }
       }
 
-    }
-    while (numero > 0);
+    } while (numero > 0);
     int numeroPositivo = contador - 1;
     double media = impares / contadorImpares;
 
-    System.out.printf("Ha introducido %d números positivos\n", numeroPositivo);
-    System.out.printf("La media de los impares ha sido %.2f\n", media);
-    System.out.printf("El mayor número par introducido ha sido %d\n", maxPar);
+    System.out.printf("Ha introducido %d números positivos%n", numeroPositivo);
+    System.out.printf("La media de los impares ha sido %.2f%n", media);
+    System.out.printf("El mayor número par introducido ha sido %d%n", maxPar);
   }
 
 }

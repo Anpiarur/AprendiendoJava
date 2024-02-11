@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -28,7 +24,8 @@ public class Bucles49 {
         int maximo = Integer.MIN_VALUE; // Valor inicial para el máximo
         int minimo = Integer.MAX_VALUE; // Valor inicial para el mínimo
 
-        System.out.println("Por favor, vaya introduciendo números enteros positivos. \nPara terminar, introduzca un número primo:");
+        System.out.println(
+                "Por favor, vaya introduciendo números enteros positivos. \nPara terminar, introduzca un número primo:");
 
         while (!esPrimo) {
             int numero = sc.nextInt();

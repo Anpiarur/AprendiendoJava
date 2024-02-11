@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -14,11 +10,9 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles18 {
+public class Bucles18 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int num1;
     int num2;
@@ -30,10 +24,9 @@ public
       num2 = sc.nextInt();
       if (num1 == num2) {
         System.out.println("Los números no son válidos "
-                + "deben ser distintos.");
+            + "deben ser distintos.");
       }
-    }
-    while (num1 == num2);
+    } while (num1 == num2);
 
     if (num2 > num1) {
       num1 = num1 + num2;
@@ -44,5 +37,6 @@ public
       System.out.println(i);
 
     }
+    sc.close();
   }
 }

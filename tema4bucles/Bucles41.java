@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -43,7 +39,8 @@ public class Bucles41 {
                 temp /= 10;
 
             }
-            System.out.println("El número " + numero + " contiene " + pares + " dígitos pares y " + impares + " dígitos impares");
+            System.out.println(
+                    "El número " + numero + " contiene " + pares + " dígitos pares y " + impares + " dígitos impares");
         }
     }
 }

@@ -1,9 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
-
+package tema4bucles;
 import java.util.Scanner;
 
 /**
@@ -20,6 +15,7 @@ public class Bucles59 {
 
         System.out.print("Por favor, introduzca la altura del árbol: ");
         int alturaIntroducida = sc.nextInt();
+        sc.close();
 
         int espaciosPorDelante = alturaIntroducida - 3;
         int espaciosInternos = 0;

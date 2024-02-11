@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -28,7 +24,7 @@ public class Bucles51StringBuilder {
         // Manejo de entrada incorrecta
         while (!sc.hasNextInt()) {
             System.out.println("Por favor, ingrese un número entero válido:");
-            sc.next();  // Limpiar el buffer del scanner
+            sc.next(); // Limpiar el buffer del scanner
         }
 
         int numeroIntroducido = sc.nextInt();
@@ -51,7 +47,8 @@ public class Bucles51StringBuilder {
             }
 
             if (rosquilla) {
-                System.out.println("Después de haber sido comido por el gusano numérico se queda en " + nuevoNumeroBuilder.toString());
+                System.out.println("Después de haber sido comido por el gusano numérico se queda en "
+                        + nuevoNumeroBuilder.toString());
             } else {
                 System.out.println("El gusano numérico no se ha comido ningún dígito.");
             }
@@ -59,8 +56,6 @@ public class Bucles51StringBuilder {
             System.out.println("Por favor, ingrese un número entero mayor que cero.");
         }
 
-        sc.close();  // Cerrar el Scanner
+        sc.close(); // Cerrar el Scanner
     }
 }
-
-

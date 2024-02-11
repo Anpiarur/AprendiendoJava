@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -10,10 +6,8 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles23 {
-   public static
-          void main(String[] args) {
+public class Bucles23 {
+  public static void main(String[] args) {
     int resultado = 10000;
     int suma = 0;
     int contador = 0;
@@ -23,17 +17,17 @@ public
     do {
       System.out.println("Ingrese un número");
       int numero = teclado.nextInt();
+      teclado.close();
 
       suma += numero;
       contador++;
 
-    }
-    while (suma <= resultado);
+    } while (suma <= resultado);
 
     double media = suma / contador;
     System.out.println("Total acumulado = " + suma);
     System.out.println("Contador de números = " + contador);
     System.out.println("Media de números = " + media);
-  
-}
+
+  }
 }

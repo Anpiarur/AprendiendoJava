@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -156,7 +152,8 @@ public class Bucles30 {
 
                 if (!diaCorrecto) {
                     System.out.println("No se ha introducido correctamente el día de la semana.");
-                    System.out.println("Los días válidos son: lunes, martes, miércoles, jueves, viernes, sábado y domingo.");
+                    System.out.println(
+                            "Los días válidos son: lunes, martes, miércoles, jueves, viernes, sábado y domingo.");
                 }
 
             } while (!diaCorrecto);
@@ -186,7 +183,8 @@ public class Bucles30 {
 
         System.out.print("Entre las " + primeraHora + ":00h del " + nombrePrimerDia);
         System.out.print(" y las " + segundaHora + ":00h del " + nombreSegundoDia);
-        System.out.println(" hay " + (((segundoDia * 24) + segundaHora) - ((primerDia * 24) + primeraHora)) + " hora/s.");
+        System.out
+                .println(" hay " + (((segundoDia * 24) + segundaHora) - ((primerDia * 24) + primeraHora)) + " hora/s.");
 
         sc.close();
     }

@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -34,11 +30,12 @@ public class Bucles31 {
         }
 
         // Imprime el palo horizontal de la L
-        for (int i = 0; i < (altura / 2) + 1; i++) {  //SE USA +1 para asegurar que siempre tenga una base
+        for (int i = 0; i < (altura / 2) + 1; i++) { // SE USA +1 para asegurar que siempre tenga una base
             System.out.print("* ");
         }
 
         // Salto de línea al final para separar la L del palo vertical
         System.out.println();
+        scanner.close();
     }
 }

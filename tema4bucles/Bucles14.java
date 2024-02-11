@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -23,6 +19,7 @@ public
     int base = sc.nextInt();
     System.out.println("Ingrese el exponente de la potencia");
     int exponente = sc.nextInt();
+    sc.close();
     int contador = 1;
     double resultado = base;
 

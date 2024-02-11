@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -44,7 +40,8 @@ public class Bucles26 {
         }
 
         if (posicion != -1) {
-            System.out.println("El dígito " + digito + " se encuentra en la posición " + posicion + " contando de izquierda a derecha.");
+            System.out.println("El dígito " + digito + " se encuentra en la posición " + posicion
+                    + " contando de izquierda a derecha.");
         } else {
             System.out.println("El dígito no se encuentra en el número proporcionado.");
         }

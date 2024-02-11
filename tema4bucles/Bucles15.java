@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -15,11 +11,9 @@ import java.util.Scanner;
  *
  * @author angelaruiz
  */
-public
-        class Bucles15 {
+public class Bucles15 {
 
-  public static
-          void main(String[] args) {
+  public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
     System.out.println("CALCULADORA DE POTENCIA");
@@ -27,11 +21,12 @@ public
     int base = sc.nextInt();
     System.out.println("Ingrese el exponente de la potencia");
     int exponente = sc.nextInt();
+    sc.close();
 
     double resultado = 1;
     for (int i = 1; i <= exponente; i++) {
       resultado *= base;
-      System.out.printf("La potencia de %d elevado a %d es %f\n", base, i, resultado);
+      System.out.printf("La potencia de %d elevado a %d es %f%n", base, i, resultado);
     }
   }
 }

@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -31,8 +27,9 @@ public class Bucles32 {
 
         // Asegurarse de que el número sea positivo
         if (numero < 0) {
-            numero = -numero;  // Si es negativo, conviértelo a positivo
-        } // No es necesario un bloque else, ya que no se hace nada si el número ya es positivo
+            numero = -numero; // Si es negativo, conviértelo a positivo
+        } // No es necesario un bloque else, ya que no se hace nada si el número ya es
+          // positivo
 
         // Determinar la longitud del número sin utilizar Math
         int longitud = 0;
@@ -50,15 +47,15 @@ public class Bucles32 {
                 divisor *= 10;
             }
 
-            int digito = (int) (numero / divisor) % 10;  // Obtener el dígito actual
+            int digito = (int) (numero / divisor) % 10; // Obtener el dígito actual
 
             // Verificar si el dígito es par
             if (digito % 2 == 0) {
                 if (hayDigitosPares) {
                     System.out.print(" ");
                 }
-                System.out.print(digito);  // Mostrar el dígito par
-                sumaDigitosPares += digito;  // Sumar el dígito par a la suma
+                System.out.print(digito); // Mostrar el dígito par
+                sumaDigitosPares += digito; // Sumar el dígito par a la suma
                 hayDigitosPares = true;
             }
         }
@@ -69,5 +66,6 @@ public class Bucles32 {
         } else {
             System.out.println("\nNo hay dígitos pares en el número.");
         }
+        scanner.close();
     }
 }

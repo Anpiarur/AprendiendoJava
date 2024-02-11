@@ -1,9 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
-
+package tema4bucles;
 import java.util.Scanner;
 
 /**
@@ -52,5 +47,6 @@ public class Bucles45 {
         // resultado
         numero = parteIzquierda * (long) (Math.pow(10, longitud - posicion)) + parteDerecha;
         System.out.print("El número resultante es " + numero);
+        sc.close();
     }
 }

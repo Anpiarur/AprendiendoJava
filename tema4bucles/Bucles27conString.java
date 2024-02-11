@@ -1,8 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
+
 import java.util.Scanner;
 
 /**
@@ -18,7 +15,7 @@ public class Bucles27conString {
         System.out.println("Introduzca un número entero");
         int numero = sc.nextInt();
         sc.close();
-        
+
         int contador = 0;
         int suma = 0;
 
@@ -35,6 +32,7 @@ public class Bucles27conString {
 
         // Imprime los múltiplos de 3, la cantidad y la suma después del bucle
         System.out.println(multiplosDe3);
-        System.out.printf("La cantidad de números múltiplos de 3 entre 1 y %d es %d y la suma de ellos es %d\n", numero, contador, suma);
+        System.out.printf("La cantidad de números múltiplos de 3 entre 1 y %d es %d y la suma de ellos es %d%n", numero,
+                contador, suma);
     }
 }

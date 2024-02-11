@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package AprendeConJava.Tema4Bucles;
+package tema4bucles;
 
 import java.util.Scanner;
 
@@ -23,12 +19,12 @@ public class Bucles56 {
 
         int espacios = 0;
 
-        for (int i = 0; i < altura; i++) {  //Bucle externo para iterar a través de cada línea del triángulo
-            for (int j = 0; j < espacios; j++) { //Bucle interno para imprimir los espacios antes de los asteriscos
+        for (int i = 0; i < altura; i++) { // Bucle externo para iterar a través de cada línea del triángulo
+            for (int j = 0; j < espacios; j++) { // Bucle interno para imprimir los espacios antes de los asteriscos
                 System.out.print(" ");
             }
 
-            for (int j = 0; j < altura - i; j++) { //Bucle interno para imprimir los asteriscos
+            for (int j = 0; j < altura - i; j++) { // Bucle interno para imprimir los asteriscos
                 System.out.print("*");
             }
 
