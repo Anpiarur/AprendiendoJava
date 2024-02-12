@@ -43,3 +43,13 @@ Realiza un programa que pida la temperatura media que ha hecho en cada mes
 de un determinado año y que muestre a continuación un diagrama de barras
 horizontales con esos datos. Las barras del diagrama se pueden dibujar a base
 de asteriscos o cualquier otro carácter.
+*Ejercicio 9*
+Realiza un programa que pida 8 números enteros y que luego muestre esos
+números junto con la palabra “par” o “impar” según proceda.
+*Ejercicio 10*
+Escribe un programa que genere 20 números enteros aleatorios entre 0 y 100
+y que los almacene en un array. El programa debe ser capaz de pasar todos
+los números pares a las primeras posiciones del array (del 0 en adelante) y
+todos los números impares a las celdas restantes. Utiliza arrays auxiliares si es
+necesario.
+
