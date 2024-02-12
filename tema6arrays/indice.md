@@ -38,3 +38,8 @@ muestre por pantalla separados por espacios. El programa pedirá entonces por
 teclado dos valores y a continuación cambiará todas las ocurrencias del primer
 valor por el segundo en la lista generada anteriormente. Los números que se
 han cambiado deben aparecer entrecomillados.
+*Ejercicio 8*
+Realiza un programa que pida la temperatura media que ha hecho en cada mes
+de un determinado año y que muestre a continuación un diagrama de barras
+horizontales con esos datos. Las barras del diagrama se pueden dibujar a base
+de asteriscos o cualquier otro carácter.
