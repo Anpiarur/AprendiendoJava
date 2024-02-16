@@ -68,5 +68,18 @@ números están entre 0 y 9. El programa deberá colocar el número de la posici
 inicial en la posición final, rotando el resto de números para que no se pierda
 ninguno. Al final se debe mostrar el array resultante.
 Por ejemplo, para inicial = 3 y final = 7:
+*Ejercicio 13*
+Escribe un programa que rellene un array de 100 elementos con números en-
+teros aleatorios comprendidos entre 0 y 500 (ambos incluidos). A continuación
+el programa mostrará el array y preguntará si el usuario quiere destacar el
+máximo o el mínimo. Seguidamente se volverá a mostrar el array escribiendo
+el número destacado entre dobles asteriscos.
+*Ejercicio 14*
+Escribe un programa que pida 8 palabras y las almacene en un array. A
+continuación, las palabras correspondientes a colores se deben almacenar al
+comienzo y las que no son colores a continuación. Puedes utilizar tantos arrays
+auxiliares como quieras. Los colores que conoce el programa deben estar en
+otro array y son los siguientes: verde, rojo, azul, amarillo, naranja, rosa, negro,
+blanco y morado.
 
 
