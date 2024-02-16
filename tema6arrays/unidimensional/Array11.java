@@ -41,7 +41,7 @@ public class Array11 {
                 noPrimo[noPrimos++] = numero[i];
             }
         }
-        sc.close();
+       
         for (i = 0; i < 10; i++)
 
         {
@@ -66,5 +66,6 @@ public class Array11 {
             System.out.println("----------");
         }
 
+        sc.close();
     }
 }
