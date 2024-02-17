@@ -118,5 +118,22 @@ programa debe colocar de forma alterna y en orden los menores o iguales de
 100 y los mayores de 100: primero menor, luego mayor, luego menor, luego
 mayor... Cuando se acaben los menores o los mayores, se completará con los
 números que queden.  
+*Ejercicio 19*  
+Realiza un programa que sea capaz de insertar un número en una posición
+concreta de un array. En primer lugar, el programa generará un array de 12
+números enteros aleatorios entre 0 y 200 ambos incluidos. A continuación se
+debe mostrar el contenido de ese array junto al índice (0 – 11). Seguidamente
+el programa preguntará por el número que se quiere insertar y por la posición
+donde será insertado. Los números del array se desplazan a la derecha para
+dejar sitio al nuevo. El último número (el que se encuentra en la posición 11)
+siempre se perderá.  
+*Ejercicio 20*  
+Implementa un programa que calcule la denominación ordinal de los reyes de
+una secuencia histórica. El programa solicitará la cantidad de reyes que se
+van a introducir, y a continuación recibirá los nombres de los reyes. Presentará
+por pantalla dichos nombres, pero colocándoles el ordinal correspondiente. Así,
+por ejemplo, si hay dos Felipes en los nombres de los reyes, el primero debería
+aparecer como Felipe 1o y el segundo como Felipe 2o.  
+
 
 
