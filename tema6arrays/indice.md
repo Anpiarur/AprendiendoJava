@@ -1,5 +1,5 @@
-# Indice
-## Arrays de una dimensión
+# Indice  
+## Arrays de una dimensión  
 
 *Ejercicio 1*  
 Define un array de 12 números enteros con nombre num y asigna los valores
@@ -140,5 +140,13 @@ comprendidos entre 0 y 500 (ambos incluidos). A continuación, se mostrará el
 array “cincuerizado”, según el siguiente criterio: si el número que hay en una
 posición del array es múltiplo de 5, se deja igual, y si no, se cambia por el
 siguiente múltiplo de 5 que exista a partir de él.  
+
+## Arrays bidimensionales  
+*Ejercicio 1*  
+Define un array de números enteros de 3 filas por 6 columnas con nombre num
+y asigna los valores según la siguiente tabla. Muestra el contenido de todos
+los elementos del array dispuestos en forma de tabla como se muestra en la
+figura.  
+
 
 
