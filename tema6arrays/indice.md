@@ -147,6 +147,19 @@ Define un array de números enteros de 3 filas por 6 columnas con nombre num
 y asigna los valores según la siguiente tabla. Muestra el contenido de todos
 los elementos del array dispuestos en forma de tabla como se muestra en la
 figura.  
+*Ejercicio 2*  
+Escribe un programa que pida 20 números enteros. Estos números se deben
+introducir en un array de 4 filas por 5 columnas. El programa mostrará las
+sumas parciales de filas y columnas igual que si de una hoja de cálculo se
+tratara. La suma total debe aparecer en la esquina inferior derecha.  
+*Ejercicio 3*  
+Modifica el programa anterior de tal forma que los números que se introducen
+en el array se generen de forma aleatoria (valores entre 100 y 999).  
+*Ejercicio 4*  
+Modifica el programa anterior de tal forma que las sumas parciales y la suma
+total aparezcan en la pantalla con un pequeño retardo, dando la impresión de
+que el ordenador se queda “pensando” antes de mostrar los números.  
+
 
 
 
