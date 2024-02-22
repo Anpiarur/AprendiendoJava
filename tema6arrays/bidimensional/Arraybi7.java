@@ -1,5 +1,7 @@
 package tema6arrays.bidimensional;
 
+import java.util.InputMismatchException;
+import java.util.Random;
 import java.util.Scanner;
 
 /* 
@@ -9,98 +11,128 @@ de distancia, el programa avise diciendo ¡Cuidado! ¡Hay una mina cerca!
  */
 public class Arraybi7 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
-        // se definen constantes para representar el
-        // contenido de las celdas
-        final int VACIO = 0;
-        final int MINA = 1;
-        final int TESORO = 2;
-        final int INTENTO = 3;
-        int x;
-        int y;
-        int[][] cuadrante = new int[5][4];
-        // inicializa el array
-        for (x = 0; x < 4; x++) {
-            for (y = 0; y < 3; y++) {
-                cuadrante[x][y] = VACIO;
+
+        // Objeto Scanner y random
+        Scanner sc = new Scanner(System.in);
+        Random azarFila = new Random();
+        Random azarColumna = new Random();
+
+        // Declaracion de variables
+        char vacio = '*';
+        char mina = '!';
+        char tesoro = '$';
+        int coordenadaX = 0;
+        int coordenadaY = 0;
+
+        // Definir ubicacion de tesoro
+        int filaTesoro = azarFila.nextInt(4);
+        int columnaTesoro = azarColumna.nextInt(5);
+
+        // Definir ubicacion de mina
+        int filaMina = azarFila.nextInt(4);
+        int columnaMina = azarColumna.nextInt(5);
+
+        // Declaracion array vacio
+        char plantilla[][] = new char[4][5]; // 4 filas x 5 columnas
+
+        // Rellenar array vacio
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 5; j++) {
+                plantilla[i][j] = vacio;
             }
         }
-        // coloca la mina
-        int minaX = (int) (Math.random() * 5);
-        int minaY = (int) (Math.random() * 4);
-        cuadrante[minaX][minaY] = MINA;
-        // coloca el tesoro
-        int tesoroX;
-        int tesoroY;
-        do {
-            tesoroX = (int) (Math.random() * 5);
-            tesoroY = (int) (Math.random() * 4);
-        } while ((minaX == tesoroX) && (minaY == tesoroY));
-        cuadrante[tesoroX][tesoroY] = TESORO;
-        // juego
-        System.out.println("¡BUSCA EL TESORO!");
-        boolean salir = false;
-        String c = "";
-        do {
-            // pinta el cuadrante
-            for (y = 3; y >= 0; y--) {
-                System.out.print(y + "|");
-                for (x = 0; x < 5; x++) {
-                    if (cuadrante[x][y] == INTENTO) {
-                        System.out.print("X ");
+
+        // Rellenar array con tesoro y mina
+        plantilla[filaMina][columnaMina] = mina;
+        plantilla[filaTesoro][columnaTesoro] = tesoro;
+
+        // Imprimir la matriz vacia
+        for (int i = 0; i < 4; i++) {
+            System.out.print(i + "| ");
+            for (int j = 0; j < 5; j++) {
+                System.out.printf("%s ", vacio);
+            }
+            System.out.println(); // Salto de línea después de imprimir cada fila
+        }
+
+        // Imprimir la línea de guiones justo debajo de la matriz
+        System.out.print("   ");
+        for (int j = 0; j < 5; j++) {
+            System.out.print("--");
+        }
+        System.out.println(); // Salto de línea después de imprimir la línea
+
+        // Imprimir las posiciones j en la parte inferior
+        System.out.print("   ");
+        for (int j = 0; j < 5; j++) {
+            System.out.printf("%2d", j);
+        }
+        System.out.println(); // Salto de línea después de imprimir las posiciones j
+
+        // Pedir al usuario las coordenadas
+        boolean correcto = false;
+        int intentos = 3;
+
+        while (!correcto && intentos > 0) {
+            try {
+                System.out.println("Ingrese la coordenada X del tesoro (0-3): ");
+                coordenadaX = sc.nextInt();
+                System.out.println("Ingrese la coordenada Y del tesoro (0-4):");
+                coordenadaY = sc.nextInt();
+
+                if (coordenadaX >= 0 && coordenadaX <= 3 && coordenadaY >= 0 && coordenadaY <= 4) {
+                    correcto = true;
+
+                    // Comprobacion de posiciones
+                    if (filaTesoro == coordenadaX && columnaTesoro == coordenadaY) {
+                        System.out.println("Enhorabuena, ha ganado. Ha acertado la posición del tesoro");
+                    } else if (filaMina == coordenadaX && columnaMina == coordenadaY) {
+                        System.out.println("Lo siento, ha perdido. Ha encontrado la mina");
                     } else {
-                        System.out.print(" ");
+                        System.out.println("Esa posición está vacía. Le quedan " + --intentos + " intentos");
+
+                        if ((coordenadaX == (filaMina - 1) || coordenadaX == (filaMina + 1))
+                                && (coordenadaY == (columnaMina - 1) || coordenadaY == (columnaMina + 1))) {
+                            System.out.println("Cuidado hay una mina cerca");
+                        }
+                        correcto = false; // Reiniciar el juego
                     }
+                } else {
+                    System.out.println("Introduzca unas coordenadas correctas");
                 }
-                System.out.println();
+
+            } catch (InputMismatchException e) {
+                sc.nextLine();
             }
-            System.out.println(" ----------\n 0 1 2 3 4\n");
-            // pide las coordenadas
-            System.out.print("Coordenada x: ");
-            x = sc.nextInt();
-            System.out.print("Coordenada y: ");
-            y = sc.nextInt();
-            // mira lo que hay en las coordenadas indicadas por el usuario
-            switch (cuadrante[x][y]) {
-                case VACIO:
-                    cuadrante[x][y] = INTENTO;
-                    break;
-                case MINA:
-                    System.out.println("Lo siento, has perdido.");
-                    salir = true;
-                    break;
-                case TESORO:
-                    System.out.println("¡Enhorabuena! ¡Has encontrado el tesoro!");
-                    salir = true;
-                    break;
-                default:
-            }
-        } while (!salir);
-        // pinta el cuadrante
-        for (y = 3; y >= 0; y--) {
-            System.out.print(y + " ");
-            for (x = 0; x < 5; x++) {
-                switch (cuadrante[x][y]) {
-                    case VACIO:
-                        c = " ";
-                        break;
-                    case MINA:
-                        c = "* ";
-                        break;
-                    case TESORO:
-                        c = "€ ";
-                        break;
-                    case INTENTO:
-                        c = "X ";
-                        break;
-                    default:
-                }
-                System.out.print(c);
-            }
-            System.out.println();
         }
-        System.out.println(" ----------\n 0 1 2 3 4\n");
+
+        // Imprimir la matriz final con el número de intentos
+        for (int i = 0; i < 4; i++) {
+            System.out.print(i + "| ");
+            for (int j = 0; j < 5; j++) {
+                if (i == filaTesoro && j == columnaTesoro) {
+                    System.out.printf("%s ", tesoro);
+                } else if (i == filaMina && j == columnaMina) {
+                    System.out.printf("%s ", mina);
+                } else {
+                    System.out.printf("%s ", vacio);
+                }
+            }
+            System.out.println(); // Salto de línea después de imprimir cada fila
+        }
+
+        // Imprimir la línea de guiones justo debajo de la matriz
+        System.out.print("   ");
+        for (int j = 0; j < 5; j++) {
+            System.out.print("--");
+        }
+        System.out.println(); // Salto de línea después de imprimir la línea
+
+        // Imprimir las posiciones j en la parte inferior
+        System.out.print("   ");
+        for (int j = 0; j < 5; j++) {
+            System.out.printf("%2d", j);
+        }
+        System.out.println(); // Salto de línea después de imprimir las posiciones j
     }
 }
- 
-

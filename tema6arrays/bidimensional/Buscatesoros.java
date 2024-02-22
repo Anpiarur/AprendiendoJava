@@ -24,7 +24,6 @@ public class Buscatesoros {
         char vacio = '*';
         char mina = '!';
         char tesoro = '$';
-        char intento = 'X';
         int coordenadaX = 0;
         int coordenadaY = 0;
 
