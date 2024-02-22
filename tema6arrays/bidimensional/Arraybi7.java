@@ -1,18 +1,15 @@
-package tema6arrays;
+package tema6arrays.bidimensional;
 
-/**
- * Minijuego "Busca el tesoro"
- *
- * Se colocan una mina y un tesoro de forma aleatoria en un cuadrante de
- * cuatro filas por cinco columnas. El usuario intentará averiguar dónde
- * está el tesoro.
- *
- * @author Luis José Sánchez
- * 
+import java.util.Scanner;
+
+/* 
+ * Ejercicio 7
+Mejora el juego “Busca el tesoro” de tal forma que si hay una mina a una casilla
+de distancia, el programa avise diciendo ¡Cuidado! ¡Hay una mina cerca!
  */
-public class EjemploBuscaMinas {
-
+public class Arraybi7 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
         // se definen constantes para representar el
         // contenido de las celdas
         final int VACIO = 0;
@@ -60,9 +57,9 @@ public class EjemploBuscaMinas {
             System.out.println(" ----------\n 0 1 2 3 4\n");
             // pide las coordenadas
             System.out.print("Coordenada x: ");
-            x = Integer.parseInt(System.console().readLine());
+            x = sc.nextInt();
             System.out.print("Coordenada y: ");
-            y = Integer.parseInt(System.console().readLine());
+            y = sc.nextInt();
             // mira lo que hay en las coordenadas indicadas por el usuario
             switch (cuadrante[x][y]) {
                 case VACIO:
@@ -105,3 +102,5 @@ public class EjemploBuscaMinas {
         System.out.println(" ----------\n 0 1 2 3 4\n");
     }
 }
+ 
+

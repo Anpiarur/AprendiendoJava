@@ -159,6 +159,17 @@ en el array se generen de forma aleatoria (valores entre 100 y 999).
 Modifica el programa anterior de tal forma que las sumas parciales y la suma
 total aparezcan en la pantalla con un pequeño retardo, dando la impresión de
 que el ordenador se queda “pensando” antes de mostrar los números.  
+*Ejercicio 5*  
+Realiza un programa que rellene un array de 6 filas por 10 columnas con
+números enteros positivos comprendidos entre 0 y 1000 (ambos incluidos). A
+continuación, el programa deberá dar la posición tanto del máximo como del
+mínimo.  
+*Ejercicio 6*  
+Modifica el programa anterior de tal forma que no se repita ningún número en
+el array.  
+*Ejercicio 7*  
+Mejora el juego “Busca el tesoro” de tal forma que si hay una mina a una casilla
+de distancia, el programa avise diciendo ¡Cuidado! ¡Hay una mina cerca!  
 
 
 
