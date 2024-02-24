@@ -23,38 +23,44 @@ public class Arraybi9 {
             }
             System.out.println();
         }
-        // Segunda matriz
-        int girado[][] = new int[12][12];
+        
 
         // Rotación de la matriz
         System.out.println("\nLa matriz girada es la siguiente: ");
-        for (int capa = 0; capa < 6; capa++) {
+        int filas = original.length;
+        int columnas = original[0].length;
+
+        for (int capa = 0; capa < filas / 2; capa++) {
+            int limiteSuperior = filas - 1 - capa;
+            int limiteDerecho = columnas - 1 - capa;
 
             // Rotación por arriba
-            int aux1 = original[capa][11 - capa];
-            for (int i = 11 - capa; i > capa; i--) {
-                original[capa][i] = original[capa][i - 1];
+            for (int i = capa; i < limiteDerecho; i++) {
+                int temp = original[capa][i + 1];
+                original[capa][i + 1] = original[capa][i];
+                original[capa][i] = temp;
             }
 
             // Rotación por la derecha
-            int aux2 = original[11 - capa][11 - capa];
-            for (int i = 11 - capa; i > capa + 1; i--) {
-                original[i][11 - capa] = original[i - 1][11 - capa];
+            for (int i = capa; i < limiteSuperior; i++) {
+                int temp = original[i + 1][limiteDerecho];
+                original[i + 1][limiteDerecho] = original[i][limiteDerecho];
+                original[i][limiteDerecho] = temp;
             }
-            original[capa + 1][11 - capa] = aux1;
 
             // Rotación por abajo
-            aux1 = original[11 - capa][capa];
-            for (int i = capa; i < 11 - capa - 1; i++) {
-                original[11 - capa][i] = original[11 - capa][i + 1];
+            for (int i = limiteDerecho; i > capa; i--) {
+                int temp = original[limiteSuperior][i - 1];
+                original[limiteSuperior][i - 1] = original[limiteSuperior][i];
+                original[limiteSuperior][i] = temp;
             }
-            original[11 - capa][11 - capa - 1] = aux2;
 
             // Rotación por la izquierda
-            for (int i = capa; i < 11 - capa - 1; i++) {
-                original[i][capa] = original[i + 1][capa];
+            for (int i = limiteSuperior; i > capa; i--) {
+                int temp = original[i - 1][capa];
+                original[i - 1][capa] = original[i][capa];
+                original[i][capa] = temp;
             }
-            original[11 - capa - 1][capa] = aux1;
         }
 
         // Imprimir el resultado
