@@ -14,7 +14,7 @@ Introduzca la posición del alfil: d5
 El álfil puede moverse a las siguientes posiciones:
 h1 a2 g2 b3 f3 c4 e4 c6 e6 b7 f7 a8 g8
  */
-public class Arraybi8 {
+public class Movimientoalfil {
     
         public static void main(String[] args) {
     

@@ -176,6 +176,14 @@ a qué casillas podría saltar un alfil que se encuentra en esa posición. Como 
 indica en la figura, el alfil se mueve siempre en diagonal. El tablero cuenta con
 64 casillas. Las columnas se indican con las letras de la “a” a la “h” y las filas
 se indican del 1 al 8.  
+*Ejercicio 9*  
+Realiza un programa que sea capaz de rotar todos los elementos de una matriz
+cuadrada una posición en el sentido de las agujas del reloj. La matriz debe tener
+12 filas por 12 columnas y debe contener números generados al azar entre 0 y
+100. Se debe mostrar tanto la matriz original como la matriz resultado, ambas
+con los números convenientemente alineados.  
+*Ejercicio 10*  
+Realiza el juego de las tres en raya.  
 
 
 

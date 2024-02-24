@@ -15,7 +15,7 @@ El álfil puede moverse a las siguientes posiciones:
 h1 a2 g2 b3 f3 c4 e4 c6 e6 b7 f7 a8 g8
 EJEMPLO CON ARRAY BOOLEANO
  */
-public class Arraybi8v2 {
+public class MovimientoAlfilV2 {
   
 
     public static void main(String[] args) {
