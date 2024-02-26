@@ -182,6 +182,28 @@ cuadrada una posición en el sentido de las agujas del reloj. La matriz debe ten
 12 filas por 12 columnas y debe contener números generados al azar entre 0 y
 100. Se debe mostrar tanto la matriz original como la matriz resultado, ambas
 con los números convenientemente alineados.  
+*Ejercicio 10*  
+Realiza un programa que muestre por pantalla un array de 10 filas por 10
+columnas relleno con números aleatorios entre 200 y 300. A continuación, el
+programa debe mostrar los números de la diagonal que va desde la esquina
+superior izquierda a la esquina inferior derecha, así como el máximo, el mínimo
+y la media de los números que hay en esa diagonal.  
+*Ejercicio 11*
+Realiza un programa que muestre por pantalla un array de 9 filas por 9
+columnas relleno con números aleatorios entre 500 y 900. A continuación, el
+programa debe mostrar los números de la diagonal que va desde la esquina
+inferior izquierda a la esquina superior derecha, así como el máximo, el mínimo
+y la media de los números que hay en esa diagonal.  
+*Ejercicio 12*  
+Realiza un programa que calcule la estatura media, mínima y máxima en
+centímetros de personas de diferentes países. El array que contiene los
+nombres de los paises es el siguiente: pais = {“España”, “Rusia”, “Japón”,
+“Australia”}. Los datos sobre las estaturas se deben simular mediante un
+array de 4 filas por 10 columnas con números aleatorios generados al azar entre
+140 y 210. Los decimales de la media se pueden despreciar. Los nombres de
+los países se deben mostrar utilizando el array de países (no se pueden escribir
+directamente).  
+
 
 
 
