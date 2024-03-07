@@ -9,9 +9,12 @@ public class Vehiculos {
         color="sin color";
     }
 
-    public void setColor(){ //Por convención en Java a los metodos setter se les llama set+propiedad a cambiar
-    //El metodo setter establece el valor de la propiedad
-        color="azul";
+    public void setColor(String colorVehiculo){ //Por convención en Java a los metodos setter se les llama set+propiedad a cambiar
+    //String colorVehiculo es pasar parametros al metodo
+    
+    color=colorVehiculo;
+    /*El metodo setter establece el valor de la propiedad
+        color="azul";*/
     }
     public String getColor(){ //nombrado igualmente por convención, metodo getter.
      //El metodo getter devuelve el valor de la propiedad
