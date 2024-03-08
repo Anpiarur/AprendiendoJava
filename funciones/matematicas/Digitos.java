@@ -12,6 +12,10 @@ public class Digitos {
         return contador;
     }
 
+    public static boolean esCapicua(int numero) {
+        return numero == voltearNumero(numero);
+    }
+    
     public static int voltearNumero(int numero) {
         int resultado = 0;
         while (numero != 0) {
