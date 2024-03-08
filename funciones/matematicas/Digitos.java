@@ -35,7 +35,8 @@ public class Digitos {
             numero /= 10;
             posicion++;
         }
-        return -1;
+        return -1; /*Esta convención es comúnmente utilizada para indicar "no encontrado" 
+        o "error" en muchos lenguajes de programación. */
     }
 
     public static int quitarDigitosPorDetras(int numero, int cantidad) {
