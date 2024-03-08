@@ -1,4 +1,4 @@
-package poo_pruebas;
+package funciones;
 /*
 Ejercicio. POO:
 Crea una clase capaz de crear cuentas corrientes bancarias con las siguientes características:

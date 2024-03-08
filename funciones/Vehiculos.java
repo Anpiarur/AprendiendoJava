@@ -1,4 +1,4 @@
-package poo_pruebas;
+package funciones;
 
 public class Vehiculos {
 
