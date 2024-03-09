@@ -22,7 +22,7 @@ public class Funciones3 {
 
         // Conversión a decimal
         for (int i = 0; i < cantidadBits; i++) {
-            int bit = Digitos.digitoEnPosicion(binario, cantidadBits - i - 1);
+            int bit = Digitos.digitoEnPosicion(binario, cantidadBits - i - 1); //Para contar en el sentido correcto (i-1)
             decimal += bit * Potencia.potencia(2, i);
         }
 
