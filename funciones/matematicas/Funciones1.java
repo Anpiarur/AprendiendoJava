@@ -1,4 +1,4 @@
-package funciones.matematicas;
+
 /*Ejercicio 1
 Muestra los números primos que hay entre 1 y 1000. */
 public class Funciones1 {

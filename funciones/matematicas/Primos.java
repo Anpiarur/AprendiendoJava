@@ -1,4 +1,4 @@
-package funciones.matematicas;
+
 
 public class Primos {
   public static boolean esPrimo(int numero) {

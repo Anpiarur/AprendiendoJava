@@ -1,4 +1,4 @@
-package funciones.matematicas;
+
 
 public class Digitos {
 
