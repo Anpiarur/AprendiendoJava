@@ -1,4 +1,4 @@
-package ejercicios_poo.funciones;
+package ejercicios_poo.clases;
 
 public class UsoVehiculos {
     public static void main(String[] args) {
