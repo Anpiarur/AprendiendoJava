@@ -33,6 +33,7 @@ public class UsoSucursalPaquete {
         Paquete paquete[] = new Paquete[paquetes];
 
         for (int i = 0; i < paquetes; i++) {
+            System.out.println("Paquete número: "+(i+1));
             System.out.println("Ingrese la referencia del envío: ");
             referencia = sc.nextInt();
             sc.nextLine(); // Limpiar el buffer
