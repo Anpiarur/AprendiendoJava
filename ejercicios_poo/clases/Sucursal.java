@@ -37,18 +37,17 @@ public class Sucursal {
         return ciudad;
     }
 
-    public double precio (Paquete paquete){
-        double precio;
-        precio=paquete.getPeso();
-        if (paquete.getPrioridad()==1) {
-            precio+=10;
+    public double precio(Paquete paquete) {
+        double precio = paquete.getPeso();
+        int prioridad = paquete.getPrioridad();
+    
+        if (prioridad == 1) {
+            precio += 10;
+        } else if (prioridad == 2) {
+            precio += 20;
         }
-        if (paquete.getPrioridad()==2) {
-            precio+=20;
-        }
+    
         return precio;
-       
-
     }
 
 
