@@ -1,4 +1,4 @@
-package ejercicios_poo;
+package ejercicios_poo.clases;
 
 public class UsoEmpleados {
     public static void main(String[] args) {
@@ -24,6 +24,7 @@ public class UsoEmpleados {
         //Cuarta instancia de empleados
         Empleados empleadoAzar = new Empleados("Jorge");
         System.out.println(empleadoAzar.getDatosEmpleado());
+        System.out.println(Empleados.getIdSiguiente()); //Al ser estatico es de la clase Empleados no de ninguna isntancia
 
     }
 }
@@ -46,6 +47,10 @@ class Empleados {
     // METODO GETTER
     public String getDatosEmpleado() {
         return "El empleado " + nombre + " pertenece a la sección de " + seccion+" y su ID es "+id;
+    }
+
+    public static String getIdSiguiente(){ //Al ser static puede acceder al campo de clase static
+        return "El ID del siguiente empleado será: "+idSiguiente;
     }
 
     // CAMPOS DE CLASE (PROPIEDADES)
