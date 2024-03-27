@@ -1,4 +1,4 @@
-package ejercicios_poo.herencias;
+package ejercicios_poo.herencias.empresa;
 
 public class Jefe extends Empleados{
 

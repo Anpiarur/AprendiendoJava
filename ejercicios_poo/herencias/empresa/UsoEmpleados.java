@@ -1,4 +1,4 @@
-package ejercicios_poo.herencias;
+package ejercicios_poo.herencias.empresa;
 
 public class UsoEmpleados {
     public static void main(String[] args) {

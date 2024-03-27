@@ -1,4 +1,4 @@
-package ejercicios_poo.herencias;
+package ejercicios_poo.herencias.animal;
 
 public class UsoAnimal {
     public static void main(String[] args) {

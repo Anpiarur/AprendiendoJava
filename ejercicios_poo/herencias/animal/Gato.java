@@ -1,4 +1,4 @@
-package ejercicios_poo.herencias;
+package ejercicios_poo.herencias.animal;
 
 public class Gato extends Animal {
     private String raza;
