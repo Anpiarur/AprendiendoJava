@@ -1,5 +1,15 @@
 package ejercicios_poo.herencias.vehiculo;
 
-public class Bicicleta {
+class Bicicleta extends Vehiculo {
+    Bicicleta(String color, String modelo, int year) {
+        super(color, modelo, year);
+    }
 
+    public void andar() {
+        System.out.println("¡Andando con la bicicleta!");
+    }
+
+    public void hacerCaballito() {
+        System.out.println("¡Haciendo caballito con la bicicleta!");
+    }
 }

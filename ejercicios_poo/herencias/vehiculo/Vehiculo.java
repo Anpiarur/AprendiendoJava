@@ -21,11 +21,12 @@ public class Vehiculo {
         System.out.println("Se han recorrido " + distancia + " kilómetros.");
     }
 
-    public void mostrarInfo() {
-        System.out.println("Color: " + color);
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Año: " + year);
-        System.out.println("Kilómetros recorridos: " + kilometrosRecorridos);
+    public double getKilometrosRecorridos() {
+        return kilometrosRecorridos;
+    }
+
+    public static double getKilometrosTotales() {
+        return kilometrosTotales;
     }
 
     public static void mostrarInfoGlobal() {
