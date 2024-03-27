@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class UsoVehiculo {
 public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Bicicleta bicicleta = new Bicicleta("Rojo", "Mountain Bike", 2020);
-        Coche coche = new Coche("Negro", "SUV", 2022);
+        Bicicleta bicicleta = new Bicicleta("Rojo", "Mountain Bike", 2020,5);
+        Coche coche = new Coche("Negro", "SUV", 2022,180);
 
         bicicleta.recorrer(15.2);
         coche.recorrer(3000);
-        
+
 
         int opcion;
         do {

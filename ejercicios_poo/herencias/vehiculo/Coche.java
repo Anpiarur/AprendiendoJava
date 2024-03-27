@@ -1,8 +1,9 @@
 package ejercicios_poo.herencias.vehiculo;
 
 class Coche extends Vehiculo {
-    Coche(String color, String modelo, int year) {
+    Coche(String color, String modelo, int year,int cilindrada) {
         super(color, modelo, year);
+        this.cilindrada=cilindrada;
     }
 
     public void andar() {
@@ -12,4 +13,6 @@ class Coche extends Vehiculo {
     public void quemarRueda() {
         System.out.println("¡Quemando rueda con el coche!");
     }
+
+    private int cilindrada;
 }
