@@ -5,23 +5,52 @@ public class UsoAnimal {
         // Crear instancias de la clase Gato con diferentes parámetros
         Gato garfield = new Gato(Sexo.MACHO, "romano");
         Gato tom = new Gato(Sexo.MACHO);
-        Gato lisa = new Gato(Sexo.HEMBRA);
+        Gato lisa = new Gato(Sexo.HEMBRA,6,"Europeo");
         Gato silvestre = new Gato();
+        
+        //Crear instancias de la clase Perro
+        Perro ares= new Perro(Sexo.MACHO);
+        // Crear instancia de la clase Pinguino 
+        Pinguino pingu = new Pinguino(Sexo.HEMBRA);
 
-        // Imprimir información de cada gato
+        // Crear instancia de la clase Ave 
+        Ave miLoro = new Ave();
+
+        //Crear instancia de la clase Canario
+        Canario piolin = new Canario("multicolor");
+
+
+        //Crear instancia de la clase Lagarto
+        Lagarto gecko= new Lagarto(Sexo.HERMAFRODITA);
+        
+
+        // Imprimir información de cada animal
         System.out.println(garfield);
         System.out.println(tom);
         System.out.println(lisa);
         System.out.println(silvestre);
+        System.out.println(ares);
+        System.out.println(piolin);
+        System.out.println(gecko);
+        //Cambio de color del lagarto
+        gecko.setColorNuevo("morado");
+        System.out.println(gecko);
 
-        // Crear instancia de la clase Ave y llamar a sus métodos
-        Ave miLoro = new Ave();
+        //Llamar a los métodos de ave
         miLoro.aseate(); // Limpia al loro
         miLoro.vuela(); // Hace volar al loro
 
-        // Crear instancia de la clase Pinguino y llamar a sus métodos
-        Pinguino pingu = new Pinguino(Sexo.HEMBRA);
+        //Métodos de clases hijas de Ave
         pingu.aseate(); // Limpia al pingüino
         pingu.vuela(); // Indica que el pingüino no puede volar
+        piolin.vuela(); // Indica que si puede volar
+
+        //Sacar metodo estático de mamifero
+        System.out.println(Mamifero.getMamiferoMama());
+
+        //Método de lagarto
+        gecko.getSol();
+
+
     }
 }

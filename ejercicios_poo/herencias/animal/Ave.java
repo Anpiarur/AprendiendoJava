@@ -3,8 +3,8 @@ package ejercicios_poo.herencias.animal;
 public class Ave extends Animal {
     
     // Constructor que recibe el sexo del ave
-    public Ave(Sexo s) {
-        super(s); // Llama al constructor de la clase base (Animal) con el sexo proporcionado
+    public Ave(Sexo sexo) {
+        super(sexo); // Llama al constructor de la clase base (Animal) con el sexo proporcionado
     }
     
     // Constructor sin parámetros

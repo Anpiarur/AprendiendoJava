@@ -10,8 +10,8 @@ public class Animal {
         this.sexo = Sexo.MACHO;
     }
     
-    public Animal(Sexo s) {
-        this.sexo = s;
+    public Animal(Sexo sexo) {
+        this.sexo = sexo;
     }
     
     // Métodos
