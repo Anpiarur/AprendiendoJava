@@ -1,4 +1,4 @@
-package ejercicios_poo.clases;
+package ejercicios_poo.clases.animales;
 
 public class UsoCaballo {
     public static void main(String[] args) {

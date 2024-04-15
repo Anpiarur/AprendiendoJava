@@ -1,4 +1,4 @@
-package ejercicios_poo.clases;
+package ejercicios_poo.clases.disco;
 
 import java.util.Scanner;
 

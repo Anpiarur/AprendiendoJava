@@ -1,4 +1,4 @@
-package ejercicios_poo.clases;
+package ejercicios_poo.clases.colegio;
 
 public class UsoColegio {
     public static void main(String[] args) {

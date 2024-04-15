@@ -1,4 +1,4 @@
-package ejercicios_poo.clases;
+package ejercicios_poo.clases.tiempo;
 
 public class UsoTiempo {
 public static void main(String[] args) {
