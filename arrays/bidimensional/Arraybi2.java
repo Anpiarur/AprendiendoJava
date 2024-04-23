@@ -18,13 +18,13 @@ public class Arraybi2 {
       int sumaColumna = 0;
       int sumaTotal = 0;
       Scanner sc = new Scanner(System.in);
-    
+
         // Input de 20 números y llenado de la matriz
         for (int j = 0; j < aleatorio.length; j++) {
           System.out.println("Introduzca un número entero");
           aleatorio[j] = sc.nextInt();
         }
-    
+
         for (int i = 0; i < 4; i++) {// fila
           for (int j = 0; j < 5; j++) {// columna
               numeros[i][j] = aleatorio[contador];
